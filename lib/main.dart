@@ -12,9 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Todo Fluter',
-      theme: ThemeData(
-        colorScheme: .fromSeed(seedColor: Colors.orange),
-      ),
+      theme: ThemeData(colorScheme: .fromSeed(seedColor: Colors.orange)),
       home: const MyHomePage(title: 'Todo Fluter'),
     );
   }
